@@ -1,0 +1,7 @@
+kafka:
+  bootstrap-servers: 'localhost:9092'
+  topic: 'order'
+  groupId: 'shipping-service-group'
+
+server:
+  port: 8091
